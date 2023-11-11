@@ -1,0 +1,11 @@
+.landingPage-background {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  background: linear-gradient(to right, rgb(0, 204, 255), rgba(0, 0, 0, 0));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
