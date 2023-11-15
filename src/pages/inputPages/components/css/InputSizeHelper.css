@@ -1,0 +1,25 @@
+.inputPage-background {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.size-input {
+  display: flex;
+}
+
+.size-slider {
+  width: 300px;
+}
+
+.MuiInputBase-input.MuiInput-input.MuiInputBase-inputSizeSmall.css-nz481w-MuiInputBase-input-MuiInput-input {
+  text-align: center;
+}
+
+.navigationButtons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
