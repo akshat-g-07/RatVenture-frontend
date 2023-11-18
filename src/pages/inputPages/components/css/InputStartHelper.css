@@ -1,0 +1,33 @@
+.matrixBuilder-rows {
+  display: flex;
+}
+
+.matrixBuilder-rows-items {
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  margin: 2.5px;
+  background: radial-gradient(rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 1));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.matrixBuilder-rows-items:hover {
+  outline: 2.5px solid blue;
+  scale: 1.15;
+}
+
+.jerry_img {
+  width: 100%;
+  height: auto;
+  opacity: 0;
+}
+
+.show-jerry {
+  opacity: 1;
+}
+
+.matrixBuilder-rows-items:hover > .jerry_img {
+  opacity: 0.5;
+}
