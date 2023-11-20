@@ -5,6 +5,7 @@ import LandingPage from "./landingPage/LandingPage";
 import InputSize from "./inputPages/InputSize";
 import InputStart from "./inputPages/InputStart";
 import InputBlock from "./inputPages/InputBlock";
+import InputEnd from "./inputPages/InputEnd";
 
 const AllPages = () => {
   return (
@@ -15,6 +16,7 @@ const AllPages = () => {
           <Route path="/inputSize" element={<InputSize />} />
           <Route path="/inputStart" element={<InputStart />} />
           <Route path="/inputBlock" element={<InputBlock />} />
+          <Route path="/inputEnd" element={<InputEnd />} />
         </Routes>
       </BrowserRouter>
     </>
