@@ -1,0 +1,9 @@
+.cheese_img {
+  width: 100%;
+  height: auto;
+  opacity: 0;
+}
+
+.show-cheese {
+  opacity: 1;
+}
